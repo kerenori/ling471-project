@@ -59,7 +59,7 @@ def my_naive_bayes(data, column):
 
     test_data = data[data.type=='test']
 
-
+b
     train_data = data[data.type == 'train']
 
     X_train = train_data[column]
